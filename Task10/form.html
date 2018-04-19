@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 10</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        #day {
+            width: 35px;
+        }
+
+        #year {
+            width: 65px;
+        }
+
+        select {
+            font-size: 25px;
+        }
+
+        body {
+            margin: 50px;
+            font-size: 25px;
+        }
+
+        input[type="number"] {
+            border-radius: 7px;
+            border: 1px solid #9c9c9c;
+            height: 30px;
+            outline: none;
+            font-size: 25px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+<form method="post">
+    <label for="day">Введите число:</label><br>
+    <input id="day" type="number" name="day" min="1" max="31">
+    <select name="select">
+        <option value="1">Январь</option>
+        <option value="2">Февраль</option>
+        <option value="3">Март</option>
+        <option value="4">Апрель</option>
+        <option value="5">Май</option>
+        <option value="6">Июнь</option>
+        <option value="7">Июль</option>
+        <option value="8">Август</option>
+        <option value="9">Сентябрь</option>
+        <option value="10">Октябрь</option>
+        <option value="11">Ноябрь</option>
+        <option value="12">Декабрь</option>
+    </select>
+    <input id="year" name="year" type="number" min="1950" max="2100"><br>
+    <input type="submit" value="Посчитать">
+</form>
+</body>
+</html>

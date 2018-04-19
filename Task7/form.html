@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice 7</title>
+    <style>
+        body {
+            margin: 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            margin: 5px;
+        }
+
+        #site {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+        }
+
+        input[type="submit"] {
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="index.php">
+    <label for="site">Введите сайт:</label>
+    <input type="text" name="site" id="site">
+    <label for="ping"><input type="checkbox" name="ping" id="ping">ping</label>
+    <label for="tracert"><input type="checkbox" name="tracert" id="tracert">tracert</label>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 8</title>
+    <style>
+        body {
+            margin: 50px;
+        }
+
+    </style>
+</head>
+<body>
+<form action="index.php" method="post">
+    <label for="lines">Введите строки:</label><br>
+    <textarea id="lines" name="lines"></textarea><br><br>
+    <label><input type="radio" name="radio" value="file" checked>File</label><br>
+    <input type="text" id="filename" name="file"><br><br>
+    <label><input type="radio" name="radio" value="browser">Browser</label><br>
+    <select name="select">
+        <option value="1">только время</option>
+        <option value="2">дата и время</option>
+        <option value="3">выключено</option>
+    </select><br><br>
+    <input type="submit" value="Проверить">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+body {
+    background-color: #eee;
+    line-height: 1.2em;
+}
+
+.profile_container {
+    width: 65%;
+    min-height: 300px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+.publisher_name {
+    margin-left: 15px;
+    margin-top: -2px;
+    position: absolute;
+    font-size: 28px;
+}
+
+.date {
+    font-family: Ubuntu, sans-serif;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+table tr td:first-child {
+    color: #959595;
+}
+
+table tr:last-child {
+    line-height: 1em;
+}
+
+.profile_name {
+    font-size: 45px;
+}
+
+.status {
+    font-size: 15px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.profile_wall {
+    margin: 15px auto;
+    width: 69.8%;
+}
+
+.post_container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.profile_wall table tr:first-child {
+    position: relative;
+}
+
+.other_info {
+    font-family: Ubuntu, sans-serif;
+    font-size: 17px;
+    width: 600px;
+}
+
+.post_text {
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.likes_container, .repost_container {
+    color: #2a5885;
+    font-family: Ubuntu, sans-serif;
+    font-size: 17px;
+    margin-top: -10px;
+}
